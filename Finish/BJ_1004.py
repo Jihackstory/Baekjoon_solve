@@ -1,3 +1,7 @@
+# 백준 1004 어린 왕자
+# 다이나믹 프로그래밍
+# 실버 3
+
 import sys
 
 data = []
@@ -12,8 +16,6 @@ for i in range(n):
         tmp.append(list(map(int, sys.stdin.readline().split())))
     data.append(tmp)
 
-
-for i in range(n):
     count = 0
     x1, y1, x2, y2 = data[i][0]
     for j in range(1, len(data[i])):
